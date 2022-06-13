@@ -10,7 +10,7 @@ might not work on output files obtained using earlier versions.
 
 ### How-to:
 
-``python ./extract_3pa_to_table.py OUTFILE_NAME.csv WORKDIR_PATH``
+``python ./extract_3pa.py OUTFILE_NAME.csv WORKDIR_PATH``
 
 WORKDIR_PATH: where i) the Dalton output files are located and 
 ii) the csv output file will be created, e.g., ``./`` or ``./results/``
