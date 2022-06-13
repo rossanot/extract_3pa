@@ -9,7 +9,7 @@ import re
 from scipy.constants import fine_structure, c, physical_constants
 
 
-assert len(sys.argv) == 3, "ext_3pa_to_table.py OUTPUT.csv WORKDIR_PATH"
+assert len(sys.argv) == 3, "extract_3pa.py OUTPUT.csv WORKDIR_PATH"
 OUTFILE = sys.argv[1]
 WORKDIR_PATH = sys.argv[2]
 FILES_PATH = WORKDIR_PATH + '*.out'
